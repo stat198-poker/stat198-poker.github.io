@@ -9,12 +9,11 @@ const Header = () => {
     return (
         <div className="header">
             <div class="left">
-                <Button text="Home" link="/"/>
+                <Button text="Stat 198" link="/"/>
             </div>
             <div class="right">
-                <Button text="About" link="/about"/>
-                <Button text="Software" link="/software"/>
-                <Button text="Design" link="/design"/>
+                <Button text="Grading" link="/grading"/>
+                <Button text="Resources" link="/resources"/>
             </div>
         </div>
     );

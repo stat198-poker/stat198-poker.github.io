@@ -1,21 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
 
 .landing {
-    height: 100vh;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    flex-direction: row;
-
-    background-image: url('./../../assets/background.png');
-    background-size: cover;
-}
-
-.landing .text-container {
-    width: 40vw; 
+    height: 100%;
 
     display: flex;
 
@@ -23,28 +9,125 @@
     justify-content: flex-start;
 
     flex-direction: column;
+
+    background-color: #f2f2f3;
+    background-size: cover;
 }
 
-.landing .text-container .small-text {
-    font-family: "Lato";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 0.875em;
+.landing .photo {
+    position: absolute;
+    margin-top: 7.5vh;
+    margin-left: 50vh;
+    width: 450px;
+}
+
+.landing .text-container table {
+    width: 100%;
+}   
+
+.landing .text-container thead {
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}  
+
+.landing .text-container tbody {
+    align-items: flex-start;
+    text-align: flex-start;
+    justify-content: center;
+}  
+
+.landing .text-container th {
+    min-width: 50px;
+}
+
+.landing .text-container tr {
+    height: 50px;
+    min-height: 50px;
+}
+
+.landing .text-container tr:hover {
+    background-color: mediumseagreen;
+} 
+
+.landing .text-container td {
+    align-items: flex-start;
+    text-align: flex-start;
+}  
+
+.landing .text-container {
+    width: 85vw; 
+
     display: flex;
 
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.landing .text-container p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.35em;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     color: #000000;
 }
 
-.landing .text-container .big-text {
-    font-family: "lato";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 2.25em;
+.landing .text-container ul {
+    font-family: "Roboto";
+    font-size: 1em;
+    line-height: 1.5em;
+
+    color: #000000;
+}
+
+.landing .text-container ol {
+    font-family: "Roboto";
+    font-size: 1em;
+    line-height: 1.5em;
+
+    color: #000000;
+}
+
+
+.landing .text-container h1 {
+    font-family: "Roboto";
+    font-size: 2em;
+
+    line-height: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: #000000;
+}
+
+.landing .text-container h2 {
+    font-family: "Roboto";
+    font-size: 1.5em;
+
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: #000000;
+}
+
+.landing .text-container h3 {
+    font-family: "Roboto";
+    font-size: 1em;
+
+    line-height: 1.35em;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
     color: #000000;
-
-    margin-top: 0.1em;
-    margin-bottom: 1em;
 }
 
 
